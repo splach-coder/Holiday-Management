@@ -7,5 +7,9 @@ export default defineConfig({
   base: "./", // Ensure relative paths for production
   build: {
     outDir: "build" // Set the output directory for Azure
+  },
+  server: {
+    port: 8080,
+    host: '0.0.0.0'
   }
 })
